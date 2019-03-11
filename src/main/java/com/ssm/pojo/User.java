@@ -2,6 +2,7 @@ package com.ssm.pojo;
 
 import java.util.Date;
 
+
 public class User {
     private int id;
     private String email;

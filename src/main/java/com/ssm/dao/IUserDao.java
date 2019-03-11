@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface IUserDao {
-    public List<User> getAllUser();
+    List<User> getAllUser();
 }

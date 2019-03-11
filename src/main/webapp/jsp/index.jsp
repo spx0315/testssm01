@@ -12,5 +12,11 @@
 </head>
 <body>
     <h1> hello ssm!</h1>
+<action>
+
+</action>
+    <form>
+
+</form>
 </body>
 </html>

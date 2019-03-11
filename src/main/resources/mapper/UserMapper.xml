@@ -8,14 +8,14 @@
             property：实体类的 属性名
             column：执行完sql 语句的 字段名
         -->
-        <id column="id" property="id"></id>
-        <id column="email" property="email" ></id>
-        <id column="password" property="password" ></id>
-        <id column="username" property="username" ></id>
-        <id column="role" property="role" ></id>
-        <id column="status" property="status" ></id>
-        <id column="regTime" property="regTime" ></id>
-        <id column="regIp" property="regIp" ></id>
+        <id column="id" property="id"/>
+        <result column="email" property="email" />
+        <result column="password" property="password" />
+        <result column="username" property="username" />
+        <result column="role" property="role" />
+        <result column="status" property="status" />
+        <result column="regTime" property="regTime" />
+        <result column="regIp" property="regIp" />
     </resultMap>
 
     <select id="getAllUser" resultMap="userList">

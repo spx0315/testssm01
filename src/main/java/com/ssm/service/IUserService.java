@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("IUser")
+//@Service("IUser")
 public interface IUserService {
-    public List<User> getUser();
+    List<User> getUser();
 }
